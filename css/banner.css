@@ -1,62 +1,81 @@
-@font-face{font-family:"Proxima Nova";src:url("//uconn.edu/shared/fonts/proximanova_bold_macroman/ProximaNova-Bold-webfont.eot");src:url("//uconn.edu/shared/fonts/proximanova_bold_macroman/ProximaNova-Bold-webfont.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/proximanova_bold_macroman/ProximaNova-Bold-webfont.svg#proxima_nova_ltsemibold") format("svg"),url("//uconn.edu/shared/fonts/proximanova_bold_macroman/ProximaNova-Bold-webfont.woff") format("woff"),url("//uconn.edu/shared/fonts/proximanova_bold_macroman/ProximaNova-Bold-webfont.ttf") format("truetype");font-weight:bold;font-style:normal}@font-face{font-family:"Proxima Nova";src:url("//uconn.edu/shared/fonts/proximanova_bolditalic_macroman/ProximaNova-BoldIt-webfont.eot");src:url("//uconn.edu/shared/fonts/proximanova_bolditalic_macroman/ProximaNova-BoldIt-webfont.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/proximanova_bolditalic_macroman/ProximaNova-BoldIt-webfont.svg#proxima_novabold_italic") format("svg"),url("//uconn.edu/shared/fonts/proximanova_bolditalic_macroman/ProximaNova-BoldIt-webfont.woff") format("woff"),url("//uconn.edu/shared/fonts/proximanova_bolditalic_macroman/ProximaNova-BoldIt-webfont.ttf") format("truetype");font-weight:bold;font-style:italic}@font-face{font-family:"Proxima Nova";src:url("//uconn.edu/shared/fonts/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.eot");src:url("//uconn.edu/shared/fonts/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.svg#proxima_nova_ltsemibold") format("svg"),url("//uconn.edu/shared/fonts/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.woff") format("woff"),url("//uconn.edu/shared/fonts/proximanova_semibold_macroman/ProximaNova-Sbold-webfont.ttf") format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Proxima Nova";src:url("//uconn.edu/shared/fonts/proximanova_regular_macroman/ProximaNova-Reg-webfont.eot");src:url("//uconn.edu/shared/fonts/proximanova_regular_macroman/ProximaNova-Reg-webfont.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/proximanova_regular_macroman/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format("svg"),url("//uconn.edu/shared/fonts/proximanova_regular_macroman/ProximaNova-Reg-webfont.woff") format("woff"),url("//uconn.edu/shared/fonts/proximanova_regular_macroman/ProximaNova-Reg-webfont.ttf") format("truetype");font-weight:normal;font-style:normal}@font-face{font-family:"Proxima Nova";src:url("//uconn.edu/shared/fonts/proximanova_italic_macroman/ProximaNova-RegIt-webfont.eot");src:url("//uconn.edu/shared/fonts/proximanova_italic_macroman/ProximaNova-RegIt-webfont.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/proximanova_italic_macroman/ProximaNova-RegIt-webfont.svg#proxima_novaregular_italic") format("svg"),url("//uconn.edu/shared/fonts/proximanova_italic_macroman/ProximaNova-RegIt-webfont.woff") format("woff"),url("//uconn.edu/shared/fonts/proximanova_italic_macroman/ProximaNova-RegIt-webfont.ttf") format("truetype");font-weight:normal;font-style:italic}@font-face{font-family:'icons';src:url("//uconn.edu/shared/fonts/icons/icons.eot");src:url("//uconn.edu/shared/fonts/icons/icons.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/icons/icons.ttf") format("truetype"),url("//uconn.edu/shared/fonts/icons/icons.woff") format("woff"),url("//uconn.edu/shared/fonts/icons/icons.svg#icons") format("svg");font-weight:normal;font-style:normal}
-
-@font-face{font-family:"UConn";src:url("//uconn.edu/shared/fonts/uconn/uconn.eot");src:url("//uconn.edu/shared/fonts/uconn/uconn.eot?#iefix") format("embedded-opentype"),url("//uconn.edu/shared/fonts/uconn/uconn.svg#uconnregular") format("svg"),url("//uconn.edu/shared/fonts/uconn/uconn.woff") format("woff"),url("//uconn.edu/shared/fonts/uconn/uconn.ttf") format("truetype");font-weight:normal;font-style:normal}
-
-.uconn-banner {
-  font-size:16px;
-  line-height:normal;
-}
-
-.uconn-banner--white {
-  background-color:#fff;
-  color:#000E2F;
-}
-
-.uconn-banner--blue {
-  background-color:#000E2F;
-  color:#fff;
-}
-
-.uconn-banner__container {
-  padding:10px 15px;
-}
-
-.uconn-banner__home-link {
+nav.navbar a, nav.upper-nav a{
   text-decoration:none;
 }
 
-.uconn-banner__wordmark {
-  font-family: "UConn",Arial,Helvetica,sans-serif;
-  font-size: 32px;
-  overflow: hidden;
-  letter-spacing: 3px;
+.upper-nav a:hover{
+  text-decoration:underline;
+}
+
+.navbar{
+  padding: 0px 0px 16px 0px!important;
+
+}
+
+.navbar .navbar-brand{
+  padding-top: 0px;
+  font-family: 'Proxima Nova';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.no-parent{
+  padding-top: 30px!important;
+}
+
+.navbar-light .navbar-nav a.nav-link, a.navbar-brand{
+  color: black!important;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  padding: 8px 10px;
+}
+
+a.parent-title{
+  font-size: 13px;
+  padding: 0px 10px 0 0;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 0px 5px 0 0;
+  color: black!important;
+  font-family: 'Proxima Nova';
 }
 
-.uconn-banner--blue .uconn-banner__wordmark {
-  color:#fff;
+.upper-nav{
+  padding: 20px 0px 10px 0px;
 }
 
-.uconn-banner--white .uconn-banner__wordmark {
-  color:#000E2F;
+.upper-nav, .navbar {
+  padding-left:15px;
 }
 
-.uconn-banner .uconn-banner__title {
-  font-family: "Proxima Nova",Arial,Helvetica,sans-serif;
-  color: #9faab2;
-  font-size: 18px;
-  letter-spacing: .055em;
-  word-spacing: 0.02em;
-  padding: 1px 0 0 10px;
-  font-weight: bold;
-  font-style: normal;
-  border-left: 2px solid #3f4760;
-  line-height: normal;
-  display: none;
-  text-transform:uppercase;
+.navbar-brand {
+  margin-left:5px;
 }
 
+#uconn-banner .row-container {
+width: 100%;
+margin: 0px auto;
+box-sizing: border-box;
+padding-top:0px!important;
+padding-bottom:0px!important;
+}
+
+#uconn-banner .banner-icon-white {
+  fill:#000E2F;
+  height: 100%;
+  pointer-events: none;
+}  
+
+
+#uconn-banner #uconn-header-container__white #uconn-search:before, #uconn-banner #uconn-header-container__white #uconn-az:before, #uconn-banner #uconn-header-container__white.alternative #button-container #uconn-search:before, #uconn-banner #uconn-header-container__white .alternative #button-container #uconn-az:before{
+  box-shadow:inset 0 2px 0 0 #000E2F;
+}
+
+#uconn-banner #button-container .btn, #uconn-banner #button-container .btn:hover, #uconn-banner #button-container .btn:visited, #uconn-banner #button-container .btn:focus{
+background-color:transparent!important;
+border:0px!important;
+}
+
+#uconn-banner .row-container #uconn-az:focus+div:not(.popup-container), #uconn-banner .row-container #uconn-az:hover+div:not(.popup-container), #uconn-banner .row-container #uconn-search:focus+div:not(.popup-container), #uconn-banner .row-container #uconn-search:hover+div:not(.popup-container) {
+top: 60px!important;
+}
 
 @media (min-width: 50em) {
   .uconn-banner .uconn-banner__title {
